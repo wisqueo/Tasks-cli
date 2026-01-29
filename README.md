@@ -33,7 +33,7 @@ A pre-built Windows executable is included in this repository.
 # Run from command prompt
 tasks-cli.exe add-- Buy groceries
 tasks-cli.exe display
-
+```
 > 💡 Tip: Add the executable location to your system PATH for easy access from anywhere.
 
 
@@ -46,26 +46,26 @@ Bun v1.0 or higher
 
 
 # Install Bun (if not already installed)
-curl -fsSL https://bun.sh/install | bash
+`curl -fsSL https://bun.sh/install | bash `
 
 Clone & Setup
 
 # Clone the repository
-git clone https://github.com/yourusername/tasks-cli.git
+`git clone https://github.com/wisqueo/tasks-cli.git`
 
 # Navigate to directory
-cd tasks-cli
+`cd tasks-cli`
 
 # Install dependencies
-bun install
+`bun install`
 
 # Run directly
-bun run index.ts
+`bun run index.ts`
 
 # Or build your own executable
-bun run build
+`bun run build`
 
-🚀 Usage
+### 🚀 Usage
 
 Interactive Mode
 
@@ -75,7 +75,7 @@ Double-click the tasks-cli.exe or run without arguments:
 tasks-cli.exe
 
 # Or using Bun
-bun run index.ts
+`bun run index.ts`
 
 ┌─────────────────────────────────────────────┐
   │            🗓 TASK MANAGER CLI               │
